@@ -4,6 +4,7 @@
   "description": "naf egg utils",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/dygapp/naf-egg/issues"
   },
-  "homepage": "https://github.com/dygapp/naf-egg#readme"
+  "homepage": "https://github.com/dygapp/naf-egg#readme",
+  "dependencies": {
+    "is-type-of": "^1.2.0",
+    "naf-core": "0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-egg": "^6.0.0"
+  }
 }
